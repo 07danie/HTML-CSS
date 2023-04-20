@@ -1,0 +1,24 @@
+/* Animation */
+.locale {
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+    0% {
+        color: #e25e3b;
+    }
+
+    25% {
+        color: #ffff00;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #4ca5f0;
+    }
+}
