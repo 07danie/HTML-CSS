@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ffbf8b;
+}
+
+h1 {
+    color: #969696;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    background-color: #ffbf8b;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.pricing-body {
+    width: 33.33%;
+    height: 550px;
+    box-shadow: 3px 3px 10px 0px #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.basic {
+    background-color: #008000;
+}
+
+.premium {
+    background-color: #a70da7;
+}
+
+.ultimate {
+    background-color: #ca0b2b;
+}
+
+.pricing-title {
+    font-size: 40px;
+    background: #fff;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pricing-title>p {
+    color: #a7a6a6;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.pricing-heading h2 {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 40px;
+}
+
+.heading-b {
+    color: #008000;
+}
+
+.heading-p {
+    color: #a70da7;
+}
+
+.heading-u {
+    color: #ca0b2b;
+}
+
+.pricing-items li {
+    display: flex;
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.pricing-btn .b-btn,
+.p-btn,
+.u-btn {
+    width: 50%;
+    margin: 15px 0px;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.b-btn {
+    color: #008000;
+    box-shadow: 1px 2px 10px #000;
+}
+
+.p-btn {
+    color: #a70da7;
+    box-shadow: 1px 2px 10px #000;
+}
+
+.u-btn {
+    color: #ca0b2b;
+    box-shadow: 1px 2px 10px #000;
+}
+
+.pricing-body:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+    border-radius: 25px;
+}
