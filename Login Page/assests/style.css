@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 68%);
+}
+
+form {
+    width: 25rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    font-size: 50px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    opacity: .7;
+}
+
+form:before {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    right: 26%;
+    width: 200px;
+    height: 200px;
+    background: #C850C0;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .8;
+}
+
+form:after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    width: 120px;
+    height: 120px;
+    background: #C850C0;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .8;
+}
+
+label {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+input {
+    width: 80%;
+    text-transform: uppercase;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+button {
+    cursor: pointer;
+    width: 50%;
+    padding: 10px 30px;
+    margin: 3% auto;
+    color: #fff;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.06);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, .2);
+    box-shadow: 3px 3px 5px rgba(31, 38, 135, .37);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+a {
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+}
