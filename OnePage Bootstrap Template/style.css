@@ -1,0 +1,36 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background: #fff;
+}
+
+.home {
+  color: blue !important;
+}
+
+.bg-img {
+  background: url("https://img.freepik.com/free-vector/white-background-gradient-modern-abstract-design-wave_343694-2337.jpg?w=2000")
+    no-repeat;
+  background-size: cover;
+}
+
+.mt {
+  margin-top: 100px;
+}
+
+.mt h1 {
+  font-size: 50px;
+  font-weight: 520;
+  line-height: 1.3;
+}
+
+.cards {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  line-height: 1.6;
+}
