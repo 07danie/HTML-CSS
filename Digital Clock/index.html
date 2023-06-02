@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4305/4305432.png" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="bg-hero">
+        <div class="container clock">
+            <div class="card text-center">
+                <div class="card-body">
+                    <div class="card-text text-white display-3 d-flex justify-content-around">
+                        <span id="hrs">00</span>
+                        <span>:</span>
+                        <span id="min">00</span>
+                        <span>:</span>
+                        <span id="sec">00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
