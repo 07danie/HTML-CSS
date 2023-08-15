@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon-32x32.png">
+    <title>Business - Bluu</title>
+
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#myScrollSpy" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+    tabindex="0" id="top">
+
+    <!-- Loader -->
+    <div class="spinner-wrapper">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="myScrollSpy">
+            <div class="container mt-3 mb-2">
+                <a class="navbar-brand mb-1" href="#">
+                    <img src="./assets/svg/white-logo.svg" alt="logo"></a>
+
+                <!-- Hamburger -->
+                <button class="navbar-toggler ms-auto hamburger-menu-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="hamburger-menu-button-open"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-5 mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Side Hamburger -->
+                <div class="d-none d-lg-inline-block">
+                    <a class="hamburger" href="#" onclick="openNav()"><i class="fa-solid fa-bars"></i></a>
+                </div>
+
+                <div class="sidebar-left open">
+                    <div class="sidebar-close">
+                        <a class="close" href="#" onclick="closeNav()"><i class=" fa-solid fa-xmark"></i></a>
+                    </div>
+
+                    <div class="sidebar-content">
+                        <div class="sidebar-logo">
+                            <a href="./index.html"><img src="assets/svg/logo.svg" alt="Logo"></a>
+                        </div>
+                        <p class="text">Lorem ipsum dolor sit amet adipisicing elit. Sapiente fuga nisi rerum iusto
+                            intro.</p>
+
+                        <div class="sidebar-menu">
+                            <h5 class="menu-title mb-3">Quick Links</h5>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-social">
+                            <h5 class="social-title">Follow Us On</h5>
+                            <ul class="d-flex">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="overlay-left open"></div>
+
+            </div>
+
+        </nav>
+    </header>
+    <!-- End Header -->
+
+
+    <main>
+
+        <!-- Section Home -->
+        <section class="section-home" id="home">
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="home">
+                            <h1>Corporate & Business Site Template By Ayro UI.</h1>
+                            <p>We are a digital agency that helps brands to achieve their business
+                                outcomes. We see technology as a tool to create amazing things.</p>
+                        </div>
+
+                        <div class="homeBtns">
+                            <button class="btn btn-light ps-4 pe-4">Get started</button>
+                            <a href="https://www.youtube.com/watch?v=qN3wfuPYTI4" class="playbtn popup-youtube"><i
+                                    class="fa fa-play"></i></a>
+                            <a href="https://www.youtube.com/watch?v=qN3wfuPYTI4"
+                                class="watch-intro popup-youtube">Watch Intro</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hero-img">
+                            <img src="./assets/img/hero-image.jpg" alt="hero-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Home -->
+
+
+        <!-- Section Our-story -->
+        <section class="our-story">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="our-story-img d-flex justify-content-center mb-5">
+                            <img src="./assets/img/about-img1.jpg" alt="story-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 story-content">
+                        <h6 class="ms-2 mt-4">OUR STORY</h6>
+                        <h2 class="mt-4">Our team comes with the experience and knowledge</h2>
+
+                        <!-- Tab Menus -->
+                        <ul class="nav nav-pills mb-3 tab-menus mt-5" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one"
+                                    aria-selected="true">Who We Are</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-two" type="button" role="tab" aria-controls="pills-two"
+                                    aria-selected="false">Our Vision</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three"
+                                    aria-selected="false">Our History</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content mt-4" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-one" role="tabpanel"
+                                aria-labelledby="pills-one-tab" tabindex="0">
+                                <p>It is a long established fact that a reader
+                                    will be distracted by the readable content of a page when looking at its layout. The
+                                    point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                                    letters,
+                                    look like readable English.</p>
+
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have in
+                                    some form, by injected humour.
+                                </p>
+
+                            </div>
+                            <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab"
+                                tabindex="0">
+                                <p>It is a long established fact that a reader
+                                    will be distracted by the readable content of a page when looking at its layout. The
+                                    point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                                    letters,
+                                    look like readable English.</p>
+
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have in
+                                    some form, by injected humour.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-three" role="tabpanel"
+                                aria-labelledby="pills-three-tab" tabindex="0">
+                                <p>It is a long established fact that a reader
+                                    will be distracted by the readable content of a page when looking at its layout. The
+                                    point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                                    letters,
+                                    look like readable English.</p>
+
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have in
+                                    some form, by injected humour.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- End Section Our-story -->
+
+
+        <!-- Section Services -->
+        <section class="section-services" id="services">
+            <div class="container">
+                <div class="row services-heading">
+                    <div class="col-md-12 mt-5">
+                        <h6>Services</h6>
+                        <h4 class="mt-4">Our Best Services</h4>
+                        <p class="mt-3">There are many variations of passages of
+                            Lorem Ipsum
+                            available, but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Services Cards -->
+                <div class="row services-cards g-4">
+
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-capsules fw-hover"></i>
+                                <h5 class="card-title">Refreshing Design</h5>
+                                <p class="card-text mt-4">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                    eirmod
+                                    tempor ividunt labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-brands fa-bootstrap fw-hover"></i>
+                                <h5 class="card-title">Solid Bootstrap 5</h5>
+                                <p class="card-text mt-4">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                    eirmod
+                                    tempor ividunt labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-code fw-hover"></i>
+                                <h5 class="card-title">100+ Components</h5>
+                                <p class="card-text mt-4">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                    eirmod
+                                    tempor ividunt labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-gauge fw-hover"></i>
+                                <h5 class="card-title">Speed Optimized</h5>
+                                <p class="card-text mt-4">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                    eirmod
+                                    tempor ividunt labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-layer-group fw-hover"></i>
+                                <h5 class="card-title">Fully Customizable</h5>
+                                <p class="card-text mt-4">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                    eirmod
+                                    tempor ividunt labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-regular fa-snowflake fw-hover"></i>
+                                <h5 class="card-title">Regular Updates</h5>
+                                <p class="card-text mt-4">Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                    eirmod
+                                    tempor ividunt labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End Section Services -->
+
+
+        <!-- Section Intro Video -->
+        <section class="section-intro section-services">
+            <div class="container">
+                <div class="row services-heading">
+                    <div class="col-md-12">
+                        <h6>Our Intro Video</h6>
+                        <h4 class="mt-4">Watch Our Promo Video</h4>
+                        <p class="mt-3">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form.</p>
+                    </div>
+                </div>
+
+                <div class="video-img pb-5">
+                    <img src="./assets/img/video-bg.png" alt="intro-video" class="img-fluid">
+                    <a href="https://www.youtube.com/watch?v=qN3wfuPYTI4" class="video-play-btn popup-youtube">
+                        <i class="fa-regular fa-circle-play"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Intro Video -->
+
+        <!-- Section Portfolio -->
+        <section class="section-portfolio section-services" id="portfolio">
+            <div class="container">
+                <div class="row services-heading">
+                    <div class="col-md-12 mt-5">
+                        <h6>Our Portfolio</h6>
+                        <h4 class="mt-4">Our Recent Works</h4>
+                        <p class="mt-3">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form.</p>
+                    </div>
+                </div>
+
+                <div class="">
+                    <ul class="nav nav-pills justify-content-center portfolio-tab">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#allwork" data-bs-toggle="pill">All Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#branding" data-bs-toggle="pill">Branding</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=" #marketing" data-bs-toggle="pill">Marketing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#planning" data-bs-toggle="pill">Planning</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#research" data-bs-toggle="pill">Research</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-content">
+
+                    <div id="allwork" class="tab-pane fade show active">
+                        <div class="row img-cards g-4">
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf1.jpg" alt="allwork-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0 mt-0">Graphics Design</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf2.jpg" alt="allwork-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">Web Development</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf3.jpg" alt="allwork-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">App Development</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf4.jpg" alt="allwork-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">Digital Marketing</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf5.jpg" alt="allwork-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">SEO Services</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf6.jpg" alt="allwork-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">Product Design</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="branding" class="tab-pane fade">
+                        <div class="row img-cards g-4">
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf1.jpg" alt="branding-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">Graphics Design</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf5.jpg" alt="branding-img" class="card-img-top">
+
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">SEO Services</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="marketing" class="tab-pane fade">
+                        <div class="row img-cards g-4">
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf3.jpg" alt="marketing-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">App Development</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf6.jpg" alt="marketing-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">Product Design</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="planning" class="tab-pane fade">
+                        <div class="row img-cards g-4">
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf4.jpg" alt="planning-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">Digital Marketing</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="research" class="tab-pane fade">
+                        <div class="row img-cards g-4">
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-images">
+                                        <img src="./assets/img/pf2.jpg" alt="research-img" class="card-img-top">
+                                        <div class="lens-link">
+                                            <a href="#">
+                                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title ms-0 mt-0">Web Development</h4>
+                                        <p class="card-text">Short description for the ones who look for something new.
+                                            Awesome!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <!-- End Section Portfolio -->
+
+        <!-- Section Pricing -->
+        <section class="section-pricing section-services" id="pricing">
+            <div class="container">
+                <div class="row services-heading">
+                    <div class="col-md-12 mt-5">
+                        <h6>Pricing</h6>
+                        <h4 class="mt-4">Pricing & Plans</h4>
+                        <p class="mt-3">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card pricing-cards">
+                            <div class="card-body">
+                                <h6>Starter</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and industry.</p>
+                                <h1>
+                                    <sup>$</sup>
+                                    <span>0</span>
+                                    <sub>/mo</sub>
+                                </h1>
+                                <button>Start Free Trial</button>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Cras justo odio.</li>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Dapibus ac facilisis in.</li>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Morbi leo risus.</li>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Excepteur sint occaecat velit.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card pricing-cards box-card-middle">
+                            <div class="card-body">
+                                <h6>Exclusive</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and industry.</p>
+                                <h1>
+                                    <sup>$</sup>
+                                    <span>99</span>
+                                    <sub>/mo</sub>
+                                </h1>
+                                <button>Start Free Trial</button>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Cras justo odio.</li>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Dapibus ac facilisis in.</li>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Morbi leo risus.</li>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Excepteur sint occaecat velit.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card pricing-cards">
+                            <div class="card-body">
+                                <h6>Premium</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and industry.</p>
+                                <h1>
+                                    <sup>$</sup>
+                                    <span>150</span>
+                                    <sub>/mo</sub>
+                                </h1>
+                                <button>Start Free Trial</button>
+                                <ul>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Cras justo odio.</li>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Dapibus ac facilisis in.</li>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Morbi leo risus.</li>
+                                    <li><i class="fa-regular fa-circle-check me-1"></i> Excepteur sint occaecat velit.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- End Section Pricing -->
+
+        <!-- Section Team -->
+        <section class="section-team section-services" id="team">
+            <div class="container">
+                <div class="row services-heading">
+                    <div class="col-md-12 mt-5">
+                        <h6>Our Team</h6>
+                        <h4 class="mt-4">Our Creative Team</h4>
+                        <p class="mt-3">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card manager-cards">
+                            <div class="card-body">
+                                <div class="superior-images">
+                                    <img src="./assets/img/team-1.jpg" alt="Team-img" class="card-img-top">
+                                </div>
+                                <div class="name-position">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-facebook brand"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-twitter brand"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-linkedin brand"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-pinterest brand"></i>
+                                        </li>
+                                    </ul>
+                                    <h4>Jeffery Riley</h4>
+                                    <p>Art Director</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card manager-cards">
+                            <div class="card-body">
+                                <div class="superior-images">
+                                    <img src="./assets/img/team-2.jpg" alt="team-img" class="card-img-top">
+                                </div>
+                                <div class="name-position">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-facebook brand"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-twitter brand"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-linkedin brand"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-pinterest brand"></i>
+                                        </li>
+                                    </ul>
+                                    <h4>Riley Beata</h4>
+                                    <p>Web Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card manager-cards">
+                            <div class="card-body">
+                                <div class="superior-images">
+                                    <img src="./assets/img/team-3.jpg" alt="team-img" class="card-img-top">
+                                </div>
+                                <div class="name-position">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-facebook brand"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-twitter brand"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-linkedin brand"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-pinterest brand"></i>
+                                        </li>
+                                    </ul>
+                                    <h4>Mark Alone</h4>
+                                    <p>UX Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Section Team -->
+
+        <!-- Section Sub-team -->
+        <section class="section-sub-team">
+            <div class="container">
+                <div class="row mt-4">
+                    <div class="col-md-12 sub-content">
+                        <h1>We love to make perfect
+                            solutions for your business</h1>
+                        <p>Why I say old chap that is, spiffing off his nut cor blimey guvnords geeza
+                            bloke knees up bobby, sloshed arse William cack Richard. Bloke fanny around chesed of bum
+                            bag
+                            old lost the pilot say there spiffing off his nut.</p>
+                        <button class="btn btn-light ps-4 pe-4 mt-3">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Sub-team -->
+
+        <!-- Section Testimonial -->
+        <section class="section-testimonial section-services">
+            <div class="container">
+                <div class="row services-heading">
+                    <div class="col-md-12 mt-5">
+                        <h6>Customer Reviews</h6>
+                        <h4 class="mt-4">Our Testimonials</h4>
+                        <p class="mt-3">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form.</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial Carousels -->
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active" data-bs-interval="4000">
+
+                            <div class="row">
+                                <div class="col-lg-6 col-12 mb-3">
+                                    <div class="card testimonial-people">
+                                        <div class="card-body">
+                                            <i class="fa-solid fa-quote-left mb-2"></i>
+                                            <p class="card-text">On the other hand denoun with righteous and
+                                                disliks men who are beguiled demorae momentc blinded by desire that can
+                                            </p>
+                                            <i class="fa-solid fa-quote-right"></i>
+                                            <div class="author">
+                                                <img src="./assets/img/author-1.jpg" alt="testimonial-img">
+                                                <div>
+                                                    <h5>Jagdish Kumar</h5>
+                                                    <p>Manual Tester</p>
+                                                </div>
+                                                <i class="fa-brands fa-pagelines"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <div class="card testimonial-people">
+                                        <div class="card-body">
+                                            <i class="fa-solid fa-quote-left mb-2"></i>
+                                            <p class="card-text">On the other hand denoun with righteous and disliks men
+                                                who are beguiled demorae momentc blinded by desire that can
+                                            </p>
+                                            <i class="fa-solid fa-quote-right"></i>
+                                            <div class="author">
+                                                <img src="./assets/img/author-3.jpg" alt="testimonial-img">
+                                                <div>
+                                                    <h5>Jems Gilario</h5>
+                                                    <p>Web Developer</p>
+                                                </div>
+                                                <i class="fa-brands fa-pagelines"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="carousel-item" data-bs-interval="4000">
+
+                            <div class="row">
+                                <div class="col-lg-6 col-12 mb-3">
+                                    <div class="card testimonial-people">
+                                        <div class="card-body">
+                                            <i class="fa-solid fa-quote-left mb-2"></i>
+                                            <p class="card-text">On the other hand denoun with righteous and
+                                                disliks men who are beguiled demorae momentc blinded by desire that can
+                                            </p>
+                                            <i class="fa-solid fa-quote-right"></i>
+                                            <div class="author">
+                                                <img src="./assets/img/author-3.jpg" alt="testimonial-img">
+                                                <div>
+                                                    <h5>Jems Gilario</h5>
+                                                    <p>Web Developer</p>
+                                                </div>
+                                                <i class="fa-brands fa-pagelines"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <div class="card testimonial-people">
+                                        <div class="card-body">
+                                            <i class="fa-solid fa-quote-left mb-2"></i>
+                                            <p class="card-text">On the other hand denoun with righteous and disliks men
+                                                who are beguiled demorae momentc blinded by desire that can
+                                            </p>
+                                            <i class="fa-solid fa-quote-right"></i>
+                                            <div class="author">
+                                                <img src="./assets/img/author-1.jpg" alt="testimonial-img">
+                                                <div>
+                                                    <h5>Rosy Grace</h5>
+                                                    <p>UI/UX Designer</p>
+                                                </div>
+                                                <i class="fa-brands fa-pagelines"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="4000">
+
+                            <div class="row">
+                                <div class="col-lg-6 col-12 mb-3">
+                                    <div class="card testimonial-people">
+                                        <div class="card-body">
+                                            <i class="fa-solid fa-quote-left mb-2"></i>
+                                            <p class="card-text">On the other hand denoun with righteous and
+                                                disliks men who are beguiled demorae momentc blinded by desire that can
+                                            </p>
+                                            <i class="fa-solid fa-quote-right"></i>
+                                            <div class="author">
+                                                <img src="./assets/img/author-1.jpg" alt="testimonial-img">
+                                                <div>
+                                                    <h5>Jagdish Kumar</h5>
+                                                    <p>Manual Tester</p>
+                                                </div>
+                                                <i class="fa-brands fa-pagelines"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <div class="card testimonial-people">
+                                        <div class="card-body">
+                                            <i class="fa-solid fa-quote-left mb-2"></i>
+                                            <p class="card-text">On the other hand denoun with righteous and disliks men
+                                                who are beguiled demorae momentc blinded by desire that can
+                                            </p>
+                                            <i class="fa-solid fa-quote-right"></i>
+                                            <div class="author">
+                                                <img src="./assets/img/author-3.jpg" alt="testimonial-img">
+                                                <div>
+                                                    <h5>David Warner</h5>
+                                                    <p>Web Entrepreneur</p>
+                                                </div>
+                                                <i class="fa-brands fa-pagelines"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+        <!-- End Section Testimonial -->
+
+        <!-- Section News -->
+        <section class="section-news section-services">
+            <div class="container">
+                <div class="row services-heading">
+                    <div class="col-md-12 mt-5">
+                        <h6>latest news</h6>
+                        <h4 class="mt-4">Latest News & Blog</h4>
+                        <p class="mt-3">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card news-card">
+                            <div class="news-image">
+                                <img src="./assets/img/1.jpg" class="card-img-top" alt="News-img">
+                                <div id="signature-name">
+                                    <img src="./assets/img/b6.jpg" alt="News-img">
+                                    <h6>BY TIM NORTON</h6>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Make your team a Design driven company</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card news-card">
+                            <div class="news-image">
+                                <img src="./assets/img/2.jpg" class="card-img-top" alt="News-img">
+                                <div id="signature-name">
+                                    <img src="./assets/img/b6.jpg" alt="News-img">
+                                    <h6>BY TIM NORTON</h6>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">The newest web framework that changed the world</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card news-card">
+                            <div class="news-image">
+                                <img src="./assets/img/3.jpg" class="card-img-top" alt="News-img">
+                                <div id="signature-name">
+                                    <img src="./assets/img/b6.jpg" alt="News-img">
+                                    <h6>BY TIM NORTON</h6>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">5 ways to improve user retention for your startup</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Section News -->
+
+        <!-- Section Clients -->
+        <section class="section-clients section-services">
+            <div class="container">
+                <div class="row services-heading">
+                    <div class="col-md-12 mt-5">
+                        <h6>Meet our Clients</h6>
+                        <h4 class="mt-4">Our Awesome Clients</h4>
+                        <p class="mt-3">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form.</p>
+                    </div>
+                </div>
+
+                <div class="row clients-image d-flex justify-content-center">
+
+                    <div class="col-lg-8">
+                        <div class="logo-image">
+                            <img src="./assets/svg/graygrids.svg" alt="Clients-img">
+                        </div>
+                        <div class="logo-image">
+                            <img src="./assets/svg/uideck.svg" alt="Clients-img">
+                        </div>
+                        <div class="logo-image">
+                            <img src="./assets/svg/ayroui.svg" alt="Clients-img">
+                        </div>
+                        <div class="logo-image">
+                            <img src="./assets/svg/lineicons.svg" alt="Clients-img">
+                        </div>
+                        <div class="logo-image">
+                            <img src="./assets/svg/tailwindtemplates.svg" alt="Clients-img">
+                        </div>
+                        <div class="logo-image">
+                            <img src="./assets/svg/ecomhtml.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Section Clients -->
+
+        <!-- Section Contact -->
+        <section class="section-contact" id="contact">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-xl-4">
+                        <div class="row">
+                            <div class="col-md-6 col-xl-12">
+                                <div class="contact mb-4">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <div>
+                                        <h5>Contact</h5>
+                                        <p>0984537278623</p>
+                                        <p>yourmail@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-12">
+                                <div class="contact mb-4">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <div>
+                                        <h5>Address</h5>
+                                        <p>
+                                            Address
+                                            175 5th Ave, New York, NY 10010
+                                        </p>
+                                        <p>United States</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-12">
+                                <div class="contact mb-5">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <div>
+                                        <h5>Schedule</h5>
+                                        <p>24 Hours / 7 Days Open</p>
+                                        <p>Office time: 10 AM - 5:30 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Contact Form -->
+                    <div class="col-xl-8">
+                        <div class="business-form">
+                            <div class="section-contact-form text-center">
+                                <h6>Get in Touch</h6>
+                                <h4>Ready to Get Started</h4>
+                                <p class="mt-2">At vero eos et accusamus et iusto odio dignissimos ducimus quiblanditiis
+                                    praesentium
+                                </p>
+                            </div>
+
+                            <form action="#" method="post">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" name="name" id="name" placeholder="Name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" name="email" id="email" placeholder="Email" required>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" name="phone" id="phone" placeholder="Phone" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="subject" id="email" placeholder="Subject" required>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <textarea name="message" id="message" placeholder="Type Message"
+                                            rows="5"></textarea>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="rounded-full">
+                                            SEND MESSAGE
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Section Contact -->
+
+        <!-- Section Map -->
+        <section class="section-map">
+            <div>
+                <object style="border:0;height: 500px;width: 100%;"
+                    data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.7887109309127!2d-77.44196278417968!3d38.95165507956235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU3JzA2LjAiTiA3N8KwMjYnMjMuMiJX!5e0!3m2!1sen!2sbd!4v1545420879707"></object>
+        </section>
+        <!-- End Section Map -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="footer-widget f-about">
+                            <div class="logo">
+                                <a href="./index.html">
+                                    <img src="./assets/svg/logo.svg" alt="footer-img" class="img-fluid">
+                                </a>
+                            </div>
+                            <p>
+                                Making the world a better place through constructing elegant
+                                hierarchies.
+                            </p>
+                            <p class="copyright-text">
+                                <span>© 2023 Ayro UI.</span>Designed and Developed by
+                                <a href="#">Ayro UI </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-12">
+                        <div class="footer-widget f-link">
+                            <h5>Solutions</h5>
+                            <ul>
+                                <li>Marketing</li>
+                                <li>Analytics</li>
+                                <li>Commerce</li>
+                                <li>Insights</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-12">
+                        <div class="footer-widget f-link">
+                            <h5>Support</h5>
+                            <ul>
+                                <li>Pricing</li>
+                                <li>Documentation</li>
+                                <li>Guides</li>
+                                <li>API Status</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="footer-widget newsletter">
+                            <h5>Subscribe</h5>
+                            <p>Subscribe to our newsletter for the latest updates</p>
+                            <form action="#" method="post" target="_blank" class="newsletter-form">
+                                <input name="EMAIL" placeholder="Email address" type="email" required>
+                                <div class="button">
+                                    <button class="sub-btn">
+                                        <i class="fa-regular fa-envelope"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+        <!-- Buttons -->
+        <div class="made-in-ayroui mt-4">
+            <a href="https://ayroui.com" target="_blank">
+                <img style="width:220px" src="./assets/svg/ayroui-foot.svg">
+            </a>
+        </div>
+
+        <a href="#top" class="scroll-top btn-hover" style="display: flex;">
+            <i class="fa-solid fa-chevron-up up-arrow"></i>
+        </a>
+        <!-- End Buttons -->
+    </main>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- JS -->
+    <script async src="./script.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+</body>
+
+</html>
