@@ -11,4 +11,5 @@ Projects that develop your Skills !
 | 7. | [Minimalist webpage](https://github.com/danielace1/HTML-CSS/tree/main/Minimalist%20webpage)                   | [Preview](https://danielace1.github.io/HTML-CSS/Minimalist%20webpage/)           |
 | 8. | [OnePage Bootstrap Template](https://github.com/danielace1/HTML-CSS/tree/main/OnePage%20Bootstrap%20Template) | [Preview](https://danielace1.github.io/HTML-CSS/OnePage%20Bootstrap%20Template/) |
 | 9. | [Clock](https://github.com/danielace1/HTML-CSS/tree/main/Clock)                                               | [Preview](https://danielace1.github.io/HTML-CSS/Clock/)                          |
-| 10. |[Responsive Sign-in Page](https://github.com/danielace1/HTML-CSS/tree/main/Responsive%20Sign-in%20Page)        | [Preview](https://danielace1.github.io/HTML-CSS/Responsive%20Sign-in%20Page/)                          |
+| 10. |[Responsive Sign-in Page](https://github.com/danielace1/HTML-CSS/tree/main/Responsive%20Sign-in%20Page)       | [Preview](https://danielace1.github.io/HTML-CSS/Responsive%20Sign-in%20Page/)    |
+| 11. | [Business - Bluu](https://github.com/danielace1/HTML-CSS/tree/main/Business%20-%20Bluu)                      | [Preview](https://danielace1.github.io/HTML-CSS/Business%20-%20Bluu/)            |
