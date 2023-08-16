@@ -1475,6 +1475,10 @@ textarea:focus {
     padding-bottom: 120px;
   }
 
+  #signature-name h6 {
+    margin: 0;
+  }
+  
   .business-form {
     margin-left: 0px;
   }
