@@ -339,7 +339,7 @@
 
 .hero-img > img {
   margin-top: 60px;
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -350,8 +350,8 @@
   background-color: var(--dark);
 }
 
-.our-story-img {
-  max-width: 100%;
+.our-story-img img {
+  width: 100%;
 }
 
 .our-story h6 {
@@ -392,6 +392,7 @@
   font-size: 15px;
   background-color: var(--secondary-color);
   padding: 8px 18px;
+  border-radius: 5px !important;
 }
 
 .tab-menus > li > button.active {
@@ -410,7 +411,7 @@
 /******************** Section Services ********************/
 .section-services {
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 90px;
 }
 
 .services-heading {
@@ -451,7 +452,7 @@
 }
 
 .services-cards .card-body {
-  padding: 40px 40px;
+  padding: 40px 35px;
 }
 
 .services-cards > p {
@@ -1409,19 +1410,146 @@ textarea:focus {
 }
 
 @media (max-width: 767px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-home {
+    padding-bottom: 60px;
+  }
+
+  .home > h1 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .home > p {
+    font-size: 14px;
+  }
+
+  .tab-menus {
+    display: grid;
+    padding: 10px;
+  }
+
+  .tab-menus > li > button {
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  .section-services {
+    padding-bottom: 50px;
+  }
+
+  .services-heading {
+    margin-bottom: 20px;
+  }
+
   .section-services h4 {
     font-size: 1.5rem;
   }
 
-  .section-services p {
+  .section-services h6 {
+    margin-top: -28px;
+  }
+
+  .our-story {
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
+
+  .portfolio-tab {
     font-size: 14px;
   }
 
+  .pricing-cards ul {
+    font-size: 15px;
+  }
+
+  .pricing-cards h6 {
+    font-size: 15px !important;
+  }
+
+  .section-testimonial {
+    padding-bottom: 120px;
+  }
+
+  .business-form {
+    margin-left: 0px;
+  }
+
+  .section-sub-team {
+    padding: 50px 0px;
+  }
   .footer {
     text-align: center;
   }
 
   .footer .f-about {
     padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .homeBtns {
+    display: grid;
+    justify-content: flex-start;
+  }
+
+  .section-services h4 {
+    font-size: 1.4rem;
+  }
+
+  .section-services h6 {
+    font-size: 12px;
+  }
+
+  .section-services p {
+    font-size: 12.5px;
+  }
+
+  .playbtn > .fa-play {
+    margin-top: 25px;
+    margin-left: 0px;
+    outline-offset: 1px;
+  }
+
+  .watch-intro {
+    margin-top: -44px;
+    padding-left: 48px;
+  }
+
+  .hero-img > img {
+    margin-top: 40px;
+  }
+
+  .section-intro {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+
+  #pills-tabContent {
+    font-size: 14px;
+  }
+
+  .sub-content h1 {
+    font-size: 33px;
+  }
+
+  .sub-content p {
+    font-size: 15px;
+  }
+
+  .f-about p {
+    font-size: 13px;
+  }
+
+  .f-link li {
+    font-size: 14px;
+  }
+
+  .newsletter p {
+    font-size: 14px;
   }
 }
